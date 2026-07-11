@@ -18,11 +18,12 @@ ThermoProp is a robust engineering tool designed to bring the power of the indus
 * **Iso-Process Simulation:** Model standard thermodynamic changes, including isobaric, isothermal, isochoric, isenthalpic, and isentropic processes.
 * **Engineering-Ready:** Full support for dynamic unit systems (SI, Imperial, custom) and customizable decimal precision.
 * **Export & Reporting:** Seamlessly export generated tables to PDF or CSV formats for inclusion in engineering documentation.
-
-<img width="590" height="1278" alt="IMG_1153" src="https://github.com/user-attachments/assets/43c58b10-e060-418f-9340-defb015dcc0e" />
-<img width="590" height="1278" alt="IMG_1151" src="https://github.com/user-attachments/assets/a7e46855-d12a-4266-a1f4-1a93df86801e" />
-<img width="590" height="1278" alt="IMG_1150" src="https://github.com/user-attachments/assets/f436f933-c7c9-4600-8746-06cbb6704334" />
-<img width="590" height="1278" alt="IMG_1149" src="https://github.com/user-attachments/assets/58c64d11-45ab-4b64-adb7-a98083392f0c" />
+<p align="center">
+   <img width="200" height="435" alt="IMG_1153" src="https://github.com/user-attachments/assets/43c58b10-e060-418f-9340-defb015dcc0e" />
+   <img width="200" height="435" alt="IMG_1151" src="https://github.com/user-attachments/assets/a7e46855-d12a-4266-a1f4-1a93df86801e" />
+   <img width="200" height="435" alt="IMG_1150" src="https://github.com/user-attachments/assets/f436f933-c7c9-4600-8746-06cbb6704334" />
+   <img width="200" height="435" alt="IMG_1149" src="https://github.com/user-attachments/assets/58c64d11-45ab-4b64-adb7-a98083392f0c" />
+</p>
 
 ## 🛠 Tech Stack
 
