@@ -3,10 +3,11 @@
 **High-performance thermodynamic property calculations, natively on iOS.**
 
 ThermoProp is a robust engineering tool designed to bring the power of the industry-standard **CoolProp** C++ library to the iOS ecosystem. Engineered for mechanical and energy engineering professionals, this application provides rapid, accurate fluid property data, saturation tables, and process simulation directly on mobile devices.
-
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 38" src="https://github.com/user-attachments/assets/1f25c026-5090-425b-8e7b-f3622af3b1e4" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 44" src="https://github.com/user-attachments/assets/2567a83e-6700-4d07-b817-9c12afc8e5e5" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 49" src="https://github.com/user-attachments/assets/f2858bc6-4ebd-4177-8b18-6139d0539cdb" />
+<p align="center">
+   <img width="300" height="652" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 38" src="https://github.com/user-attachments/assets/1f25c026-5090-425b-8e7b-f3622af3b1e4" />
+   <img width="300" height="652" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 44" src="https://github.com/user-attachments/assets/2567a83e-6700-4d07-b817-9c12afc8e5e5" />
+   <img width="300" height="652" alt="Simulator Screenshot - iPhone 17 Pro - 2026-07-11 at 12 34 49" src="https://github.com/user-attachments/assets/f2858bc6-  4ebd-4177-8b18-6139d0539cdb" />
+</p>
 
 ## Key Features
 
