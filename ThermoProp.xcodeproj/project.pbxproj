@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A118673000EB0900450083 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B9A118323000EB0900450083 /* .gitignore */; };
+		B9A118693000EB8500450083 /* CoolProp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A118633000EB0900450083 /* CoolProp.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9A11885300105B600450083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99624772FD30C3B00FE0090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B996247E2FD30C3B00FE0090;
+			remoteInfo = CoolProp_UIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B996247F2FD30C3B00FE0090 /* ThermoProp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermoProp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A118303000EB0900450083 /* superancillary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = superancillary.h; sourceTree = "<group>"; };
+		B9A118323000EB0900450083 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B9A118333000EB0900450083 /* AbstractState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractState.h; sourceTree = "<group>"; };
+		B9A118343000EB0900450083 /* all_cubics_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_cubics_JSON.h; sourceTree = "<group>"; };
+		B9A118353000EB0900450083 /* all_fluids_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_fluids_JSON.h; sourceTree = "<group>"; };
+		B9A118363000EB0900450083 /* all_fluids_JSON_z.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_fluids_JSON_z.h; sourceTree = "<group>"; };
+		B9A118373000EB0900450083 /* all_incompressibles_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_incompressibles_JSON.h; sourceTree = "<group>"; };
+		B9A118383000EB0900450083 /* all_pcsaft_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_pcsaft_JSON.h; sourceTree = "<group>"; };
+		B9A118393000EB0900450083 /* Ancillaries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ancillaries.h; sourceTree = "<group>"; };
+		B9A1183A3000EB0900450083 /* CachedElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CachedElement.h; sourceTree = "<group>"; };
+		B9A1183B3000EB0900450083 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		B9A1183C3000EB0900450083 /* CoolProp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolProp.h; sourceTree = "<group>"; };
+		B9A1183D3000EB0900450083 /* CoolPropFluid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolPropFluid.h; sourceTree = "<group>"; };
+		B9A1183E3000EB0900450083 /* CoolPropLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolPropLib.h; sourceTree = "<group>"; };
+		B9A1183F3000EB0900450083 /* CoolPropPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolPropPlot.h; sourceTree = "<group>"; };
+		B9A118403000EB0900450083 /* CoolPropTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolPropTools.h; sourceTree = "<group>"; };
+		B9A118413000EB0900450083 /* CPfilepaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPfilepaths.h; sourceTree = "<group>"; };
+		B9A118423000EB0900450083 /* CPmsgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPmsgpack.h; sourceTree = "<group>"; };
+		B9A118433000EB0900450083 /* CPnumerics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPnumerics.h; sourceTree = "<group>"; };
+		B9A118443000EB0900450083 /* CPstrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPstrings.h; sourceTree = "<group>"; };
+		B9A118453000EB0900450083 /* cpversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpversion.h; sourceTree = "<group>"; };
+		B9A118463000EB0900450083 /* crossplatform_shared_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crossplatform_shared_ptr.h; sourceTree = "<group>"; };
+		B9A118473000EB0900450083 /* cubic_fluids_schema_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cubic_fluids_schema_JSON.h; sourceTree = "<group>"; };
+		B9A118483000EB0900450083 /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
+		B9A118493000EB0900450083 /* Exceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exceptions.h; sourceTree = "<group>"; };
+		B9A1184A3000EB0900450083 /* finite_diff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = finite_diff.h; sourceTree = "<group>"; };
+		B9A1184B3000EB0900450083 /* gitrevision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitrevision.h; sourceTree = "<group>"; };
+		B9A1184C3000EB0900450083 /* Helmholtz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helmholtz.h; sourceTree = "<group>"; };
+		B9A1184D3000EB0900450083 /* HumidAirProp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumidAirProp.h; sourceTree = "<group>"; };
+		B9A1184E3000EB0900450083 /* Ice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ice.h; sourceTree = "<group>"; };
+		B9A1184F3000EB0900450083 /* IdealCurves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdealCurves.h; sourceTree = "<group>"; };
+		B9A118503000EB0900450083 /* IncompressibleFluid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncompressibleFluid.h; sourceTree = "<group>"; };
+		B9A118513000EB0900450083 /* MatrixMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixMath.h; sourceTree = "<group>"; };
+		B9A118523000EB0900450083 /* miniz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miniz.h; sourceTree = "<group>"; };
+		B9A118533000EB0900450083 /* mixture_binary_pairs_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mixture_binary_pairs_JSON.h; sourceTree = "<group>"; };
+		B9A118543000EB0900450083 /* mixture_binary_pairs_pcsaft_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mixture_binary_pairs_pcsaft_JSON.h; sourceTree = "<group>"; };
+		B9A118553000EB0900450083 /* mixture_departure_functions_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mixture_departure_functions_JSON.h; sourceTree = "<group>"; };
+		B9A118563000EB0900450083 /* ODEIntegrators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODEIntegrators.h; sourceTree = "<group>"; };
+		B9A118573000EB0900450083 /* pcsaft_fluids_schema_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pcsaft_fluids_schema_JSON.h; sourceTree = "<group>"; };
+		B9A118583000EB0900450083 /* PCSAFTFluid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSAFTFluid.h; sourceTree = "<group>"; };
+		B9A118593000EB0900450083 /* PhaseEnvelope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhaseEnvelope.h; sourceTree = "<group>"; };
+		B9A1185A3000EB0900450083 /* PlatformDetermination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformDetermination.h; sourceTree = "<group>"; };
+		B9A1185B3000EB0900450083 /* PolyMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolyMath.h; sourceTree = "<group>"; };
+		B9A1185C3000EB0900450083 /* predefined_mixtures_JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = predefined_mixtures_JSON.h; sourceTree = "<group>"; };
+		B9A1185D3000EB0900450083 /* rapidjson_include.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rapidjson_include.h; sourceTree = "<group>"; };
+		B9A1185E3000EB0900450083 /* Solvers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solvers.h; sourceTree = "<group>"; };
+		B9A1185F3000EB0900450083 /* SpeedTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedTest.h; sourceTree = "<group>"; };
+		B9A118603000EB0900450083 /* TestObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObjects.h; sourceTree = "<group>"; };
+		B9A118613000EB0900450083 /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		B9A118633000EB0900450083 /* CoolProp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CoolProp.xcframework; sourceTree = "<group>"; };
+		B9A1187F300105B600450083 /* ThermoCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermoCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B99624912FD30C3C00FE0090 /* Exceptions for "ThermoProp" folder in "ThermoProp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets/Info.plist,
+			);
+			target = B996247E2FD30C3B00FE0090 /* ThermoProp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B99624812FD30C3B00FE0090 /* ThermoProp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B99624912FD30C3C00FE0090 /* Exceptions for "ThermoProp" folder in "ThermoProp" target */,
+			);
+			path = ThermoProp;
+			sourceTree = "<group>";
+		};
+		B9A11880300105B600450083 /* ThermoPropUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThermoPropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B996247C2FD30C3B00FE0090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A118693000EB8500450083 /* CoolProp.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A1187C300105B600450083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B99624762FD30C3B00FE0090 = {
+			isa = PBXGroup;
+			children = (
+				B99624812FD30C3B00FE0090 /* ThermoProp */,
+				B9A11880300105B600450083 /* ThermoPropUITests */,
+				B99624802FD30C3B00FE0090 /* Products */,
+				B9A118653000EB0900450083 /* Dependencies */,
+			);
+			sourceTree = "<group>";
+		};
+		B99624802FD30C3B00FE0090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B996247F2FD30C3B00FE0090 /* ThermoProp.app */,
+				B9A1187F300105B600450083 /* ThermoCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A118313000EB0900450083 /* superancillary */ = {
+			isa = PBXGroup;
+			children = (
+				B9A118303000EB0900450083 /* superancillary.h */,
+			);
+			path = superancillary;
+			sourceTree = "<group>";
+		};
+		B9A118623000EB0900450083 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B9A118313000EB0900450083 /* superancillary */,
+				B9A118323000EB0900450083 /* .gitignore */,
+				B9A118333000EB0900450083 /* AbstractState.h */,
+				B9A118343000EB0900450083 /* all_cubics_JSON.h */,
+				B9A118353000EB0900450083 /* all_fluids_JSON.h */,
+				B9A118363000EB0900450083 /* all_fluids_JSON_z.h */,
+				B9A118373000EB0900450083 /* all_incompressibles_JSON.h */,
+				B9A118383000EB0900450083 /* all_pcsaft_JSON.h */,
+				B9A118393000EB0900450083 /* Ancillaries.h */,
+				B9A1183A3000EB0900450083 /* CachedElement.h */,
+				B9A1183B3000EB0900450083 /* Configuration.h */,
+				B9A1183C3000EB0900450083 /* CoolProp.h */,
+				B9A1183D3000EB0900450083 /* CoolPropFluid.h */,
+				B9A1183E3000EB0900450083 /* CoolPropLib.h */,
+				B9A1183F3000EB0900450083 /* CoolPropPlot.h */,
+				B9A118403000EB0900450083 /* CoolPropTools.h */,
+				B9A118413000EB0900450083 /* CPfilepaths.h */,
+				B9A118423000EB0900450083 /* CPmsgpack.h */,
+				B9A118433000EB0900450083 /* CPnumerics.h */,
+				B9A118443000EB0900450083 /* CPstrings.h */,
+				B9A118453000EB0900450083 /* cpversion.h */,
+				B9A118463000EB0900450083 /* crossplatform_shared_ptr.h */,
+				B9A118473000EB0900450083 /* cubic_fluids_schema_JSON.h */,
+				B9A118483000EB0900450083 /* DataStructures.h */,
+				B9A118493000EB0900450083 /* Exceptions.h */,
+				B9A1184A3000EB0900450083 /* finite_diff.h */,
+				B9A1184B3000EB0900450083 /* gitrevision.h */,
+				B9A1184C3000EB0900450083 /* Helmholtz.h */,
+				B9A1184D3000EB0900450083 /* HumidAirProp.h */,
+				B9A1184E3000EB0900450083 /* Ice.h */,
+				B9A1184F3000EB0900450083 /* IdealCurves.h */,
+				B9A118503000EB0900450083 /* IncompressibleFluid.h */,
+				B9A118513000EB0900450083 /* MatrixMath.h */,
+				B9A118523000EB0900450083 /* miniz.h */,
+				B9A118533000EB0900450083 /* mixture_binary_pairs_JSON.h */,
+				B9A118543000EB0900450083 /* mixture_binary_pairs_pcsaft_JSON.h */,
+				B9A118553000EB0900450083 /* mixture_departure_functions_JSON.h */,
+				B9A118563000EB0900450083 /* ODEIntegrators.h */,
+				B9A118573000EB0900450083 /* pcsaft_fluids_schema_JSON.h */,
+				B9A118583000EB0900450083 /* PCSAFTFluid.h */,
+				B9A118593000EB0900450083 /* PhaseEnvelope.h */,
+				B9A1185A3000EB0900450083 /* PlatformDetermination.h */,
+				B9A1185B3000EB0900450083 /* PolyMath.h */,
+				B9A1185C3000EB0900450083 /* predefined_mixtures_JSON.h */,
+				B9A1185D3000EB0900450083 /* rapidjson_include.h */,
+				B9A1185E3000EB0900450083 /* Solvers.h */,
+				B9A1185F3000EB0900450083 /* SpeedTest.h */,
+				B9A118603000EB0900450083 /* TestObjects.h */,
+				B9A118613000EB0900450083 /* Tests.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B9A118643000EB0900450083 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B9A118633000EB0900450083 /* CoolProp.xcframework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B9A118653000EB0900450083 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B9A118623000EB0900450083 /* include */,
+				B9A118643000EB0900450083 /* lib */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B996247E2FD30C3B00FE0090 /* ThermoProp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99624922FD30C3C00FE0090 /* Build configuration list for PBXNativeTarget "ThermoProp" */;
+			buildPhases = (
+				B996247B2FD30C3B00FE0090 /* Sources */,
+				B996247C2FD30C3B00FE0090 /* Frameworks */,
+				B996247D2FD30C3B00FE0090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B99624812FD30C3B00FE0090 /* ThermoProp */,
+			);
+			name = ThermoProp;
+			packageProductDependencies = (
+			);
+			productName = CoolProp_UIKit;
+			productReference = B996247F2FD30C3B00FE0090 /* ThermoProp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9A1187E300105B600450083 /* ThermoCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A11887300105B600450083 /* Build configuration list for PBXNativeTarget "ThermoCalcUITests" */;
+			buildPhases = (
+				B9A1187B300105B600450083 /* Sources */,
+				B9A1187C300105B600450083 /* Frameworks */,
+				B9A1187D300105B600450083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9A11886300105B600450083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B9A11880300105B600450083 /* ThermoPropUITests */,
+			);
+			name = ThermoCalcUITests;
+			packageProductDependencies = (
+			);
+			productName = ThermoCalcUITests;
+			productReference = B9A1187F300105B600450083 /* ThermoCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B99624772FD30C3B00FE0090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					B996247E2FD30C3B00FE0090 = {
+						CreatedOnToolsVersion = 26.5;
+						LastSwiftMigration = 2650;
+					};
+					B9A1187E300105B600450083 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = B996247E2FD30C3B00FE0090;
+					};
+				};
+			};
+			buildConfigurationList = B996247A2FD30C3B00FE0090 /* Build configuration list for PBXProject "ThermoProp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B99624762FD30C3B00FE0090;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B99624802FD30C3B00FE0090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B996247E2FD30C3B00FE0090 /* ThermoProp */,
+				B9A1187E300105B600450083 /* ThermoCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B996247D2FD30C3B00FE0090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A118673000EB0900450083 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A1187D300105B600450083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B996247B2FD30C3B00FE0090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A1187B300105B600450083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9A11886300105B600450083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B996247E2FD30C3B00FE0090 /* ThermoProp */;
+			targetProxy = B9A11885300105B600450083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B99624932FD30C3C00FE0090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Dependencies1/include/**";
+				INFOPLIST_FILE = CoolProp_UIKit/Assets/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Dependencies/lib/**",
+					"$(PROJECT_DIR)/Dependencies/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sheraliev.islom.CoolProp-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CoolProp_UIKit/Bridger/CoolPropApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B99624942FD30C3C00FE0090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Dependencies1/include/**";
+				INFOPLIST_FILE = CoolProp_UIKit/Assets/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Dependencies/lib/**",
+					"$(PROJECT_DIR)/Dependencies/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sheraliev.islom.CoolProp-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CoolProp_UIKit/Bridger/CoolPropApp-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B99624952FD30C3C00FE0090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B99624962FD30C3C00FE0090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A11888300105B600450083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sheraliev.islom.ThermoCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolProp_UIKit;
+			};
+			name = Debug;
+		};
+		B9A11889300105B600450083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sheraliev.islom.ThermoCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolProp_UIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B996247A2FD30C3B00FE0090 /* Build configuration list for PBXProject "ThermoProp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99624952FD30C3C00FE0090 /* Debug */,
+				B99624962FD30C3C00FE0090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99624922FD30C3C00FE0090 /* Build configuration list for PBXNativeTarget "ThermoProp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99624932FD30C3C00FE0090 /* Debug */,
+				B99624942FD30C3C00FE0090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A11887300105B600450083 /* Build configuration list for PBXNativeTarget "ThermoCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A11888300105B600450083 /* Debug */,
+				B9A11889300105B600450083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B99624772FD30C3B00FE0090 /* Project object */;
+}
