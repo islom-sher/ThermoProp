@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B9A118673000EB0900450083 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B9A118323000EB0900450083 /* .gitignore */; };
 		B9A118693000EB8500450083 /* CoolProp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A118633000EB0900450083 /* CoolProp.xcframework */; };
+		B9A119323002498A00450083 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B9A119313002497F00450083 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		B9A118613000EB0900450083 /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
 		B9A118633000EB0900450083 /* CoolProp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CoolProp.xcframework; sourceTree = "<group>"; };
 		B9A1187F300105B600450083 /* ThermoCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermoCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A119313002497F00450083 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -124,6 +126,7 @@
 		B99624762FD30C3B00FE0090 = {
 			isa = PBXGroup;
 			children = (
+				B9A119313002497F00450083 /* README.md */,
 				B99624812FD30C3B00FE0090 /* ThermoProp */,
 				B9A11880300105B600450083 /* ThermoPropUITests */,
 				B99624802FD30C3B00FE0090 /* Products */,
@@ -322,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A119323002498A00450083 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
