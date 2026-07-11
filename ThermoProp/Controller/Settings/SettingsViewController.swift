@@ -9,6 +9,8 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    let deviceVersion = UIDevice.current.systemVersion
+    
     private lazy var tableView: UITableView = {
         let tv = UITableView(frame: .zero, style: .insetGrouped)
         tv.backgroundColor = .appBackground
@@ -64,6 +66,15 @@ class SettingsViewController: UIViewController {
         ])
     }
     
+    func deviceType() -> String {
+        let isPad = UIDevice.current.userInterfaceIdiom == .pad
+        
+        if isPad {
+            return "iPadOS"
+        }
+        return "iOS"
+    }
+    
     private func setupData() {
         let currentTemp = SettingsManager.shared.temperature.rawValue
         let currentPress = SettingsManager.shared.pressure.rawValue
@@ -76,7 +87,7 @@ class SettingsViewController: UIViewController {
         let currentAppearance = SettingsManager.shared.appearance.rawValue
         
         let profileSection = SettingsSection(title: nil, items: [
-            SettingsItem(title: "CoolProp App", subtitle: "v1.0.0 · iOS 26", icon: .symbol("person"), iconColor: .systemGray, accessory: .none)])
+            SettingsItem(title: "ThermoProp App", subtitle: "v1.0.0 · \(deviceType()) \(deviceVersion)", icon: .symbol("person"), iconColor: .systemGray, accessory: .none)])
                 
         let unitsSection = SettingsSection(title: "UNITS", items: [
             SettingsItem(title: "Temperature", subtitle: nil, icon: .text("T"), iconColor: .systemRed, accessory: .chevron(value: currentTemp)),
@@ -97,7 +108,7 @@ class SettingsViewController: UIViewController {
         let aboutSection = SettingsSection(title: "ABOUT & SUPPORT", items: [
             SettingsItem(title: "Send feedback", subtitle: "support@coolpropapp.com", icon: .symbol("envelope"), iconColor: .systemGreen, accessory: .externalLink),
             SettingsItem(title: "Licenses", subtitle: "CoolProp & open source", icon: .symbol("doc.text"), iconColor: .systemGray, accessory: .chevron(value: "")),
-            SettingsItem(title: "CoolProp source", subtitle: "github.com/CoolProp", icon: .symbol("chevron.left.forwardslash.chevron.right"), iconColor: .systemGray, accessory: .externalLink)
+            SettingsItem(title: "ThermoProp source", subtitle: "github.com/ThermoProp", icon: .symbol("chevron.left.forwardslash.chevron.right"), iconColor: .systemGray, accessory: .externalLink)
         ])
         
         self.sections = [profileSection, unitsSection, displaySection, aboutSection]
@@ -183,6 +194,27 @@ class SettingsViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Got it", style: .default, handler: nil))
         present(alert, animated: true)
     }
+    
+    private func showRedirectAlert(to urlString: String, siteName: String) {
+        let alert = UIAlertController(
+            title: "Leaving ThermoProp",
+            message: "You are about to be redirected to an external website (\(siteName)). Do you wish to continue?",
+            preferredStyle: .alert
+        )
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        let openAction = UIAlertAction(title: "Continue", style: .default) { _ in
+            if let url = URL(string: urlString) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+        
+        alert.addAction(cancelAction)
+        alert.addAction(openAction)
+        
+        present(alert, animated: true)
+    }
 
 }
 
@@ -262,6 +294,10 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
             if item.title == "Licenses" {
                 let licensesVC = LicensesViewController()
                 navigationController?.pushViewController(licensesVC, animated: true)
+            } else if item.title == "ThermoProp source" {
+                let githubURLString = "https://github.com/islom-sher/ThermoProp.git"
+                
+                showRedirectAlert(to: githubURLString, siteName: "GitHub")
             }
         }
         print("Tapped on \(item.title)")

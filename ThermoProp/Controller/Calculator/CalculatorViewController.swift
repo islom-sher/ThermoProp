@@ -204,7 +204,12 @@ class CalculatorViewController: UIViewController {
         }
         
         optionsSection.onStatePointTapped = { [weak self] in
-            guard let self = self, let fluid = self.currentlySelectedFluid else { return }
+            guard let self = self else { return }
+            
+            guard let fluid = self.currentlySelectedFluid else {
+                self.showFluidRequiredAlert(for: "State Point Calculator")
+                return
+            }
             
             if self.cachedStatePointVC == nil {
                 self.cachedStatePointVC = StatePointViewController()
@@ -219,7 +224,13 @@ class CalculatorViewController: UIViewController {
         }
         
         optionsSection.onSaturationTableTapped = { [weak self] in
-            guard let self = self, let fluid = self.currentlySelectedFluid else { return }
+            guard let self = self else { return }
+            
+            guard let fluid = self.currentlySelectedFluid else {
+                self.showFluidRequiredAlert(for: "Saturation Table")
+                return
+            }
+            
             if self.cachedSaturationVC == nil {
                 self.cachedSaturationVC = SaturationTableViewConroller()
                 self.cachedSaturationVC?.hidesBottomBarWhenPushed = true
@@ -232,7 +243,12 @@ class CalculatorViewController: UIViewController {
         }
         
         optionsSection.onIsoProcessTapped = { [weak self] in
-            guard let self = self, let fluid = self.currentlySelectedFluid else { return }
+            guard let self = self else { return }
+            
+            guard let fluid = self.currentlySelectedFluid else {
+                self.showFluidRequiredAlert(for: "Iso-Process Simulation")
+                return
+            }
             
             if self.cachedIsoProcessVC == nil {
                 self.cachedIsoProcessVC = IsoProcessViewController()
@@ -270,6 +286,25 @@ class CalculatorViewController: UIViewController {
     private func refreshCharacteristicsGrid(with constants: FluidCharacteristics) {
         let newData = constants.toDisplayItems()
         metaDataView.updateData(newData)
+    }
+    
+    private func showFluidRequiredAlert(for featureName: String) {
+        let alert = UIAlertController(
+            title: "Fluid Selection Required",
+            message: "Please select a working fluid from the search bar before opening the \(featureName).",
+            preferredStyle: .alert
+        )
+    
+        let selectAction = UIAlertAction(title: "Select Fluid", style: .default) { [weak self] _ in
+            self?.fluidSearchBar.becomeFirstResponder()
+        }
+        
+        let cancelAction = UIAlertAction(title: "Dismiss", style: .cancel, handler: nil)
+        
+        alert.addAction(cancelAction)
+        alert.addAction(selectAction)
+        
+        present(alert, animated: true, completion: nil)
     }
 
 //MARK: -

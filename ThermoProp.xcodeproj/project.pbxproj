@@ -368,7 +368,7 @@
 				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Dependencies1/include/**";
-				INFOPLIST_FILE = CoolProp_UIKit/Assets/Info.plist;
+				INFOPLIST_FILE = ThermoProp/Assets/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -386,7 +386,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.sheraliev.islom.CoolProp-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sheraliev.islom.ThermoProp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -396,7 +396,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CoolProp_UIKit/Bridger/CoolPropApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ThermoProp/Bridger/CoolPropApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -415,7 +415,7 @@
 				DEVELOPMENT_TEAM = AUCJAZ2Q3W;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Dependencies1/include/**";
-				INFOPLIST_FILE = CoolProp_UIKit/Assets/Info.plist;
+				INFOPLIST_FILE = ThermoProp/Assets/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -433,7 +433,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.sheraliev.islom.CoolProp-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sheraliev.islom.ThermoProp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -443,7 +443,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CoolProp_UIKit/Bridger/CoolPropApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ThermoProp/Bridger/CoolPropApp-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
